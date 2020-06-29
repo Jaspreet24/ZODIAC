@@ -1,0 +1,112 @@
+*{
+    margin : 0 ;
+    padding :0;
+    font-family: 'Balsamiq Sans', cursive;
+}
+ul{
+    list-style-type: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.hide-mobile{
+    display: none;
+}
+.menu{
+    height: 80px;
+    width: 80px;
+}
+.subhead{
+    position: relative;
+    z-index: 3;
+}
+#wave{
+    position: relative;
+    height: 40px;
+    margin-left: 5%;
+}
+.row{
+    margin: 0% 10%;
+    display: flex;
+    justify-content: space-between ;
+}
+.intro{
+    background-color: slateblue;
+    color: white;
+    margin-top: 5%;    
+    text-align : center;
+    font-size: x-large;
+}
+#fdiv, #sdiv, #tdiv, #fourthdiv{
+    position:relative;
+    padding: 5px ;
+    border-style: ridge;
+    margin: 5em 5em;
+    border-width: 1px;
+    border-radius: 15%; 
+}
+#fdiv{
+    border-color: orange
+}
+#sdiv{
+    border-color:greenyellow;
+}
+#tdiv{
+    border-color:lightblue;
+}
+#fourthdiv{
+    border-color:darkcyan ;
+}
+div h2{
+    text-align: center;
+}
+div ul {
+    display: flex;
+    margin-left: 2em;
+}
+div ul li{
+    padding: 1em 3em 0em 0em;
+}    
+.sym{
+ display: flex;
+    position: relative;
+    margin-left: 5%;
+    margin-top: -2%;     
+    }
+nav ul{
+    display: block;
+    position: fixed;
+    height: 100%;
+    width: 40%;
+    right: 0;
+    top: 0;
+    text-align: left;
+    background-color: slateblue;
+    z-index:7;
+    padding-top: 3em;
+}
+ nav ul li a{
+     color: white;
+     padding: 0.5em 3em; 
+ }
+nav ul li a:hover{
+    background-color: slategray;
+}
+#exit{
+    margin-top: -2em;
+    margin-bottom: 1em;
+    text-align: right;
+    padding: 0 1.4em;
+}
+#exit img{
+    width: 40px;
+    cursor: pointer;
+}
+footer ul {
+    height: 5%;
+    background-color: slateblue;
+    display : flex;
+    justify-content: space-between;  
+    padding :2%;
+}
